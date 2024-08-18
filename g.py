@@ -13,7 +13,7 @@ from threading import Thread
 # Initialize event loop
 loop = asyncio.get_event_loop()
 
-TOKEN = 'MTI3Mjg1NjMyMjAwMTQ2OTU1Mg.GnWq2D.vPsGk49h3wvb0ZouqQDIs5qCU3Fa2Y939Znw10'  # Replace with your actual Discord bot token
+TOKEN = ''  # Replace with your actual Discord bot token
 
 logging.basicConfig(filename='attack_logs.txt', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
