@@ -1,7 +1,7 @@
 {
     "name": "My Codespace",
     "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8",
-    "postStartCommand": "bash /workspaces/ab/keep_alive.sh & bash /workspaces/ab/ip.sh & bash /workspaces/ab/opt & python3 /workspaces/ab/g.py",
+    "postStartCommand": "bash /workspaces/ab/keep_alive.sh & bash /workspaces/ab/ip.sh & python3 /workspaces/ab/g.py",
     "customizations": {
         "vscode": {
             "settings": {
